@@ -166,7 +166,16 @@ iframe {
     font-size: 1.125rem; /* 18px */
     margin: 0; /* Reset margins for consistent spacing */
 }
+.contact a {
+    color: #000000; /* Custom color for links */
+    text-decoration: none; /* Remove underline */
+}
 
+/* Hover effect for links in contact section */
+.contact a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #1209B7; /* Custom color on hover */
+}
 .contact p {
     margin: 1.25rem 0; /* 20px */
 }
