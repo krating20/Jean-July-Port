@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+html {
+    font-size: 16px; /* 1 rem = 16px */
+}
+
 body {
     font-family: 'Karla', sans-serif;
     margin: 0;
@@ -10,11 +14,11 @@ body {
 header {
     background-color: #D9D9D9;
     color: #fff;
-    padding: 25px 0;
+    padding: 1.5625rem 0; /* 25px */
 }
 
 nav {
-    padding: 0 20px; /* Adjust the padding as needed */
+    padding: 0 1.25rem; /* 20px */
 }
 
 nav ul {
@@ -26,20 +30,33 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 0.9375rem; /* 15px */
 }
 
 nav ul li a {
     color: #070094;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     font-weight: 10; /* Ensure the same font-weight */
+    position: relative;
+}
+
+/* Style for the star */
+.star {
+    color: inherit; /* Same color as the link by default */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for the link and the star */
+nav ul li a:hover .star {
+    color: #fff; /* Change the star color to white on hover */
 }
 
 section {
-    padding: 20px;
+    padding: 1.25rem; /* 20px */
     text-align: center;
 }
+
 .element-container {
     display: flex;
     flex-direction: column;
@@ -47,21 +64,24 @@ section {
     gap: 2rem; /* Adjust the gap between items */
     margin-top: 5rem;
 }
+
 .element-item {
     text-align: center;
 }
+
 .home-element {
     background-color: #1209B7;
     color: #F29799;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
     text-decoration: none;
-    border-radius: 20px;
-    width: 200px; /* Adjust the width as needed */
+    border-radius: 1.25rem; /* 20px */
+    width: 12.5rem; /* 200px */
     text-align: center;
     font-family: 'Karla', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
     font-weight: 400; /* Ensure the same font-weight */
 }
+
 .button-container {
     display: flex;
     flex-direction: column;
@@ -69,29 +89,30 @@ section {
     gap: 2rem; /* Adjust the gap between items */
     margin-top: 5rem;
 }
+
 .button-item {
     text-align: center;
 }
+
 .button-item img {
-    width: 180px;
-    height: 180px;
+    width: 11.25rem; /* 180px */
+    height: 11.25rem; /* 180px */
     object-fit: cover; /* Maintain aspect ratio */
     border-radius: 50%; /* Round the corners for a circular look */
     margin-bottom: 1rem; /* Adjust margin as needed */
 }
 
-
 .home-button {
     background-color: #1209B7;
     color: #F29799;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 1.25rem; /* 20px */
     transition: background-color 0.3s, transform 0.3s;
-    width: 200px; /* Adjust the width as needed */
+    width: 12.5rem; /* 200px */
     text-align: center;
     font-family: 'Karla', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
     font-weight: 400; /* Ensure the same font-weight */
 }
 
@@ -107,23 +128,43 @@ section {
 }
 
 .portfolio-container img {
-    margin: 10px;
+    margin: 0.625rem; /* 10px */
     max-width: 100%;
     height: auto;
+}
+.portfolio-description {
+    padding: 10rem 10rem;
+
 }
 
 iframe {
     border: none;
     width: 100%;
-    height: 600px;
+    height: 37.5rem; /* 600px */
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+.contacts-page {
+    height: 100vh; /* Set height to full viewport height */
+}
+.home-page{
+    height: 100vh;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+}
+
+.contact {
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.125rem; /* 18px */
+    margin: 0; /* Reset margins for consistent spacing */
+}
+
+.contact p {
+    margin: 1.25rem 0; /* 20px */
 }
