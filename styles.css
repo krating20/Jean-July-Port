@@ -168,3 +168,18 @@ iframe {
 .contact p {
     margin: 1.25rem 0; /* 20px */
 }
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        justify-content: center; /* Center items horizontally */
+    }
+
+    nav ul li {
+        margin: 0 0.5rem; /* Reduce margin between items */
+    }
+
+    nav ul li a {
+        padding: 0.625rem 0.75rem; /* Adjust padding for smaller screens */
+    }
+}
