@@ -182,4 +182,8 @@ iframe {
     nav ul li a {
         padding: 0.625rem 0.75rem; /* Adjust padding for smaller screens */
     }
+
+    header {
+        padding: 1rem 0; /* Adjust header padding for smaller screens */
+    }
 }
