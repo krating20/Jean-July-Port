@@ -1,0 +1,16 @@
+#D9D9D9
+
+
+nav ul li a {
+    color: #070094;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+
+header {
+    background-color: #D9D9D9;
+    color: #fff;
+    padding: 10px 0;
+}
