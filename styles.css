@@ -96,6 +96,7 @@ section {
     align-items: center;
     gap: 2rem; /* Adjust the gap between items */
     margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .button-item {
