@@ -125,8 +125,9 @@ section {
 }
 
 .home-button:hover {
-    background-color: #1209B7;
-    transform: scale(1.05);
+    background-color: #F29799;
+    color: #1209B7;
+  
 }
 
 .portfolio-container {
