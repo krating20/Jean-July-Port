@@ -9,6 +9,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
+    overflow-x:hidden
 }
 
 header {
@@ -66,10 +68,7 @@ section {
     gap: 2rem; /* Adjust the gap between items */
     margin-top: 5rem;
 }
-.side-image {
-    width: 25rem; /* 300px */
-    object-fit: cover; /* Maintain aspect ratio */
-}
+
 
 .element-item {
     text-align: center;
@@ -221,4 +220,11 @@ iframe {
     nav {
         padding: 0; /* Remove horizontal padding on smaller screens */
     }
+}
+.blocknumber{
+    width:4.74rem;
+}
+.side-image {
+    height: 9rem; /* 190px */
+    object-fit: cover; /* Maintain aspect ratio */
 }
