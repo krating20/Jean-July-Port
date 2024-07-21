@@ -18,6 +18,9 @@ header {
     color: #fff;
     padding: 1.5625rem 0; /* 25px */
     width: 100%;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Align it to the top */
+    z-index: 1000; /* Ensure it appears above other elements */
 }
 
 nav {
