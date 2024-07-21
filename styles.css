@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 0.9375rem; /* 15px */
+    margin: 0 0.9375rem ;  /* 15px */
 }
 
 nav ul li a {
@@ -43,6 +43,7 @@ nav ul li a {
     font-size: 1rem; /* 16px */
     font-weight: 10; /* Ensure the same font-weight */
     position: relative;
+    padding-right: 25px; 
 }
 
 /* Style for the star */
